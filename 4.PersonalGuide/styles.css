@@ -1,0 +1,101 @@
+
+
+body {
+    text-align: center;
+    color: black;
+    font-family:"Tillana", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+
+#header {
+    background-image: url("./images/mountain.jpg");
+    background-size:cover;
+    border-radius: 10px 10px 0px 0px;
+}
+#header h1{
+    margin-top: 0px;
+    text-shadow: 0px 0px 5px white;
+    
+}
+#header h3{
+    font-family: "Cedarville Cursive", serif;
+    margin-bottom: 0px;
+}
+
+#attractions{
+     
+    /* height: 200px; */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(251, 240, 240);
+}
+#attractions h3{
+    margin-top: 0px;
+    padding: 15px;
+}
+#places{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.city{
+    background-color: rgb(243, 142, 142);
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 4px 4px 4px grey;
+}
+.label{
+    color:rgb(129, 4, 4);
+    font-style: italic;
+    margin: 2px;
+}   
+.img{
+    margin: 2px auto 2px auto;
+    width: 100px;
+    height: 70px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.imgD{
+    background-image: url("./images/Delhi.jpg");
+    background-size: contain;
+    
+}
+.imgJ{
+    background-image: url("./images/Jaipur.jpg");
+    background-size: cover;
+}
+.imgM{
+    background-image: url("./images/Madras.jpg");
+    background-size: cover;
+}
+#guide{
+    
+    width:300px;
+    
+    border-bottom:5px solid grey;
+    background-color: bisque;  
+    margin-top:20px;   
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: lighter;
+    font-size:smaller;
+    box-shadow: 4px 4px 4px grey;
+    
+}
+#guidebox{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-style: italic;
+    padding: 10px;
+    
+}
+
+.profile{
+    width: 100px;
+    height: 200px;
+}
